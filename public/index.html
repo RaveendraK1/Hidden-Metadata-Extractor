@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hidden Metadata Extractor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Digital Forensics</p>
+        <h1>Hidden Metadata Extractor</h1>
+        <p>Upload an image or video to reveal location, device, timestamp, and edit traces instantly.</p>
+      </div>
+      <div class="hero-card">
+        <span>Fast</span>
+        <span>Secure</span>
+        <span>Forensic</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="upload-panel">
+        <div id="dropZone" class="drop-zone">
+          <p>Drag & drop image/video here</p>
+          <p>or</p>
+          <button id="browseBtn" type="button">Choose a file</button>
+          <input id="fileInput" type="file" accept="image/*,video/*" hidden />
+        </div>
+        <div class="status-box" id="statusBox">Ready to inspect hidden metadata.</div>
+      </section>
+
+      <section class="results" id="results" aria-live="polite"></section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

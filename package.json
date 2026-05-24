@@ -1,0 +1,17 @@
+{
+  "name": "hidden-metadata-extractor",
+  "version": "1.0.0",
+  "description": "Image/video metadata extractor for digital forensics with a fast upload UI.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Cyber Forensics Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exiftool-vendored": "^16.0.0",
+    "express": "^4.18.4",
+    "multer": "^2.1.1"
+  }
+}
