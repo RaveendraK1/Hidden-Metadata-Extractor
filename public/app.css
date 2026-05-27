@@ -263,6 +263,7 @@ pre {
 pre::-webkit-scrollbar {
   height: 8px;
   width: 8px;
+
 }
 pre::-webkit-scrollbar-track {
   background: rgba(0,0,0,0.2);
@@ -284,3 +285,4 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
